@@ -174,9 +174,9 @@ export default function Home() {
             forceSquare
             data={matrixToHeatMapData(ndarrayToNested(currentNoise))}
             colors={{ type: "sequential", scheme: "greys" }}
-            keys={ndarrayToNested(currentNoise)[0].map((_, i) => String(i))}
+            // keys={ndarrayToNested(currentNoise)[0].map((_, i) => String(i))}
             enableLabels={false}
-            indexBy="id"
+            // indexBy="id"
 
           />
 
