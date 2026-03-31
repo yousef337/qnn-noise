@@ -5,7 +5,7 @@ const repoName = 'qnn-noise';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: 'export',
+  // output: 'export',
   basePath: isProduction ? `/${repoName}` : '',
   assetPrefix: isProduction ? `/${repoName}/` : '',
   turbopack: {
